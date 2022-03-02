@@ -17,7 +17,7 @@ app.get("/productos", async (req, res) => {
 	res.status(200).json(response.message);
 });
 
-app.get("/productosRandom", async (req, res) => {
+app.get("/productoRandom", async (req, res) => {
 	let product = await container.getAll()
 	let randomProduct = product[Math.floor(Math.random() * product.length)];
 	response.message = randomProduct
