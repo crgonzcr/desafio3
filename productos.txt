@@ -1,0 +1,1 @@
+[{"id":1,"title":"Tablet","price":999.99,"thumbnail":""},{"id":2,"title":"notebook","price":1599.99,"thumbnail":""},{"id":3,"title":"Celular","price":1999.99,"thumbnail":""}]
